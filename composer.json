@@ -1,0 +1,25 @@
+{
+    "name": "prabeg/oop-php-rest-api",
+    "description": "REST API using OO-PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": {}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prabeg Shakya",
+            "email": "shakyaprabeg@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "firebase/php-jwt": "^5.5"
+    }
+}
